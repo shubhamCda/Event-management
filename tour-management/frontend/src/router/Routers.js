@@ -7,6 +7,7 @@ import EventDetails from '../pages/EventDetails';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
 import SearchResultList from '../pages/SearchResultList';
+import Tickets from '../pages/Tickets';
 
 const Routers = () => {
   return (
@@ -15,9 +16,12 @@ const Routers = () => {
       <Route path='/home' element={<Home />} />
       <Route path='/events' element={<Events />} />
       <Route path='/event/:id' element={<EventDetails />} />
+      <Route path='/tickets' element={<Tickets />} />
+
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/events/search' element={<SearchResultList />} />
+
     </Routes>
   )
 }
