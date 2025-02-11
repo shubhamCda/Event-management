@@ -79,9 +79,9 @@ ul {
   width: max-content;
   padding: 0px 0.5rem;
   padding-right: 1rem;
-
-  border-radius: 50px;
-  font-weight: 500;
+  color: rgb(87, 25, 85) !important;
+  border-radius: 80px;
+  font-weight: 600;
   font-size: 2.1rem;
   color: var(--heading-color);
 }

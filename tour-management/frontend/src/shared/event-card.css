@@ -1,0 +1,54 @@
+.event__img img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card{
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.event__img{
+  position: relative;
+}
+
+.event__img span{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: max-content;
+  height: max-content;
+  z-index: 10;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px 0 0 0;
+}
+
+.card__top span i{
+  color: rgb(167, 27, 120);
+}
+
+.event__location{
+  color: black !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.event__title{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.event__title a{
+  text-decoration: none;
+  color: black;
+  transition: .3s;
+}
+
+.event__title a:hover{
+  
+  color: rgb(112, 111, 111);
+  
+}
